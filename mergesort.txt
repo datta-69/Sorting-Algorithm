@@ -1,0 +1,10 @@
+    int n1 = mid - l+1;
+    int n2 = r-mid;
+
+a[i] = arr[l+i];
+b[i] = arr[mid+1+i];
+
+    mergeSort(arr, l, mid);
+    mergeSort(arr, mid+1, r);
+
+    merge(arr,l, mid, r);
